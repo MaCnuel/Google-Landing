@@ -1,0 +1,28 @@
+body{
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    font-family: arial,sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    height: 100vh;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+    background-color: #f2f2f2;
+    height: auto;
+    font-size: 15px;
+    color: rgba(0,0,0,.54);
+}

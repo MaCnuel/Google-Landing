@@ -16,24 +16,55 @@ header{
     flex-direction: row;
     justify-content: space-between;
     width: 100%;
-    padding: 10px;
-
 }
 
-header:last-child{
+header div:last-child a{
     font: 13px/27px Roboto,RobotoDraft,Arial,sans-serif;
 }
 
 a{
     text-decoration: none;
+    color:rgba(0,0,0,0.87);
+    margin: 10px 10px;
 }
 a:hover {
     text-decoration: underline;
 }
 
+.bordeboton1{
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+
+}
+
+.bordeboton1:hover{
+    background-color:  #f2f2f2;
+}
+
+.boton1{
+    fill: #5f6368;
+    opacity: 1;
+    width: 24px;
+    height: 24px;
+}
+
+button{
+    background: #4285f4;
+    border: 1px solid #4285f4;
+    color: white;
+    font-weight: bold;
+    margin: 10px 12px;
+    border-radius: 2px;
+    line-height: 28px;
+    font-size: 13px;
+    cursor: pointer;
+}
+
 div {
     display: flex;
     flex-direction: row;
+
 }
 
 .division {
@@ -51,4 +82,10 @@ footer {
     height: auto;
     font-size: 15px;
     color: rgba(0,0,0,.54);
+}
+
+.flexcenter{
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }

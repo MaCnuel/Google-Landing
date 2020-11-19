@@ -3,6 +3,7 @@ body{
     margin: 0;
     padding: 0;
     font-family: arial,sans-serif;
+    font-size: 14px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -10,7 +11,32 @@ body{
     height: 100vh;
 }
 
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px;
+
+}
+
+header:last-child{
+    font: 13px/27px Roboto,RobotoDraft,Arial,sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
 div {
+    display: flex;
+    flex-direction: row;
+}
+
+.division {
     display: flex;
     flex-direction: column;
     width: 100%;

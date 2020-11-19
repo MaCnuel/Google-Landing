@@ -105,7 +105,6 @@ input[type="text"]{
     flex: 100%;
     font-size: 16px;
     color: rgba(0, 0, 0, 0.87);
-
 }
 
 input[type="text"]:focus {
@@ -146,6 +145,15 @@ input[type="button"]:hover{
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
 }
 
+.aclash > p{
+    font-size: small;
+}
+.aclash > p> a{
+    color: #1a0dab;
+    margin:0;
+    padding: 0 3px;
+}
+
 footer {
     display: flex;
     flex-direction: column;
@@ -157,8 +165,16 @@ footer {
     color: rgba(0,0,0,.54);
 }
 
+footer>div:first-child{
+    padding: 15px 30px;
+    border-bottom: 1px solid #dadce0;
+    font-size: 15px;
+    color: rgba(0,0,0,.54);
+}
+
 .flexcenter{
     display:flex;
     justify-content: center;
     align-items: center;
 }
+
